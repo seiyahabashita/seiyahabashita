@@ -9,17 +9,15 @@ public class task5 {
 		int numA = sc.nextInt();
 		int numB = sc.nextInt();
 		int numC = sc.nextInt();
-		System.out.println("numA:" + numA);
-		System.out.println("numB:" + numB);
-		System.out.println("numC:" + numC);
+		  System.out.println("numA: " + numA);
+		  System.out.println("numB: " + numB);
+		  System.out.println("numC: " + numC);
 		int max;
 
-		  max = numA;
-		  if(numB > max) max = numB;
-		  if(numC > max) max = numC;
-
-		  System.out.printf("最大値:"+ max);
-		  
-
+		max = numA;
+		if(numB > max) max = numB;{
+		}if(numC > max) max = numC;{
+		}
+		  System.out.printf("最大値: "+ max);
 	}
 }
