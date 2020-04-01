@@ -11,14 +11,14 @@ public class task4 {
 		System.out.println("numB:" + numB);
 		if(numA % numB == 0){
 			System.out.println(numB + "は" + numA + "の約数です");
-			} else {
+		} else {
 			System.out.println(numB + "は" + numA + "の約数ではありません");
-	    } 
+	    }
 		if(numA<=0) {
-		System.out.println("正の数を入力してください");
+		    System.out.println("正の数を入力してください");
 		}
 		if(numB<=0) {
 			System.out.println("正の数を入力してください");
-			}
+		}
 	}
 }
