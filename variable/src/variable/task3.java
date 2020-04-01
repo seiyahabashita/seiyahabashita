@@ -4,11 +4,11 @@ public class task3 {
 	public static void main(String args[]){
 		int a = 219;
 		long b = a;
-		
+
 
 		double c = 364.2;
 		float d =(float) c;
-		
+
 
 		long e = 123456L;
 		double f = e;
