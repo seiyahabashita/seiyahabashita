@@ -7,7 +7,7 @@ public class task1 {
 		Scanner sc =new Scanner(System.in);
 		int a = sc.nextInt();
 
-		System.out.println("10以上の数値を入力してください");
+		System.out.println("10以上の数字を入力してください");
 		System.out.println(a);
 		if (a > 10)System.out.println("値:" + a);
 		if (a < 10) {
