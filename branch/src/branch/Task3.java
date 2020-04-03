@@ -2,7 +2,7 @@ package branch;
 
 import java.util.Scanner;
 
-public class task3 {
+public class Task3 {
 	public static void main(String args[]){
 		Scanner sc =new Scanner(System.in);
 		int num = sc.nextInt();
@@ -13,8 +13,9 @@ public class task3 {
 		else if(num < 0) {
 			System.out.println("入力された数字は負の数です");
 		}
-		if(num == 0) {
+		else if(num == 0) {
 			System.out.println("入力された数字は0です");
+		sc.close();
 		}
 	}
 }

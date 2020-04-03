@@ -2,7 +2,7 @@ package branch;
 
 import java.util.Scanner;
 
-public class task5 {
+public class Task5 {
 	public static void main(String args[]){
 		Scanner sc =new Scanner(System.in);
 
@@ -19,5 +19,6 @@ public class task5 {
 		}if(numC > max) max = numC;{
 		}
 		  System.out.printf("最大値: "+ max);
+		sc.close();
 	}
 }
