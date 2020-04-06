@@ -15,7 +15,7 @@ public class Task3 {
 		}
 		else if(num == 0) {
 			System.out.println("入力された数字は0です");
-		sc.close();
 		}
+		sc.close();
 	}
 }

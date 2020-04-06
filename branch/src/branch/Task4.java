@@ -9,17 +9,17 @@ public class Task4 {
 		int numB = sc.nextInt();
 		System.out.println("numA:" + numA);
 		System.out.println("numB:" + numB);
-	    if(numA<=0)  {
-	    System.out.println("正の数を入力してください");
-	    }
-	    if(numB<=0) {
-		System.out.println("正の数を入力してください");
-	    }
+		if(numA <=0)  {
+			System.out.println("正の数を入力してください");
+		}
+		if(numB <=0) {
+			System.out.println("正の数を入力してください");
+		}
 		else if(numA % numB == 0){
 			System.out.println(numB + "は" + numA + "の約数です");
 		} else{
 			System.out.println(numB + "は" + numA + "の約数ではありません");
-	    } 
+		}
 		sc.close();
 	}
 }

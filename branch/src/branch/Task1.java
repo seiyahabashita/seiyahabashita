@@ -12,8 +12,7 @@ public class Task1 {
 		if (a > 10)System.out.println("値:" + a);
 		if (a < 10) {
 			System.out.println("値:" + a*10);
-			sc.close();
 		}
-
+		sc.close();
 	}
 }
