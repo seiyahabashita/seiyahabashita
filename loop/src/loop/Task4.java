@@ -11,13 +11,14 @@ public class Task4 {
 
 		System.out.print("約数:");
 		for(int i=1; i<=a; i++){
-		if(a % i == 0) {
-        System.out.print(i);
-        System.out.print(",");
-		}
+			if(a % i == 0) {
+				System.out.print(i + ",");
+
+			}
 		}
 	}
 }
+
 
 
 
