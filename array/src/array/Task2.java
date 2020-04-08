@@ -1,6 +1,6 @@
 package array;
 
-public class task2 {
+public class Task2 {
 	public static void main(String[] args) {
 		int[] array = new int[8];
 		for(int i = 1; i <= 7; i++) {
