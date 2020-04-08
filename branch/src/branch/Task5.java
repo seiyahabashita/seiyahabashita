@@ -15,8 +15,10 @@ public class Task5 {
 		int max;
 
 		max = numA;
-		if(numB > max) max = numB;{
-		}if(numC > max) max = numC;{
+		if(numB > max) {
+			max = numB;
+		}if(numC > max) {
+			max = numC;
 		}
 		System.out.printf("最大値: "+ max);
 		sc.close();
