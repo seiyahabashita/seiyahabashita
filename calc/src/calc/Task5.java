@@ -7,7 +7,7 @@ public class Task5 {
 		Scanner sc =new Scanner(System.in);
 		String star ="ノートPCの値段: ";
 		int price = 89800;
-		char en = "円";
+		char en = '円';
 		System.out.println(star + price + en);
 		String line1 = sc.nextLine();
 		String line2 = sc.nextLine();
