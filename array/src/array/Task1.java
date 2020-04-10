@@ -1,7 +1,5 @@
 package array;
 
-import java.util.Arrays;
-
 public class Task1 {
 	public static void main( String[] args ) {
         int sum = 0;
@@ -9,7 +7,7 @@ public class Task1 {
         for( int data : a1) {
                 sum += data;
         }
-        System.out.println("配列:" + Arrays.toString(a1) );
+        System.out.println("配列:" + a1);
         System.out.println("合計:" + sum);
 }
 }
