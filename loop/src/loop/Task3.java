@@ -16,6 +16,7 @@ public class Task3 {
 			n = n / 10;
 		}
 		System.out.println("桁数:" + keta);
+		sc.close();
 	}
 }
 
