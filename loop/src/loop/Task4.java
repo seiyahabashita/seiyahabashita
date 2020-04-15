@@ -15,8 +15,8 @@ public class Task4 {
 				System.out.print(i + ",");
 			}if(a == i){
 				System.out.println(i);
-				sc.close();
 			}
+			sc.close();
 		}
 	}
 }
