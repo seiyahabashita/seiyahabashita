@@ -17,8 +17,4 @@ public class Task1 {
 	public static void height(double num2) {
 		System.out.println("身長は" + num2 + "cmです。");
 	}
-
-
 }
-
-
