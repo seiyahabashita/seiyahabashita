@@ -16,7 +16,7 @@ public class Task4 {
 			}if(a == i){
 				System.out.println(i);
 			}
-			sc.close();
 		}
+		sc.close();
 	}
 }
