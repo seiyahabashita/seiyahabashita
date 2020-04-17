@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task7 {
 	public static void main(String args[]){
-		Scanner sc =new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("病院に行く曜日を入力してください");
 		System.out.println("【日曜,月曜,火曜,水曜,木曜,金曜,土曜】");
 		String num = sc.nextLine();
