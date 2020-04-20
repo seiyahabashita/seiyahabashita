@@ -3,18 +3,15 @@ package method;
 public class Task1 {
 
 	public static void main(String[] args) {
-		name();
-		old(23);
-		height(172.0);
+		String name = ("幅下聖也");
+		int old = (23);
+		double height = (172.0);
+		myProfile(name, old, height);
 		System.out.println("よろしくお願いします。");
 	}
-	public static void name() {
-		System.out.println("私の名前は幅下聖也です。");
-	}
-	public static void old(int num) {
-		System.out.println("年齢は" + num + "歳です。");
-	}
-	public static void height(double num2) {
-		System.out.println("身長は" + num2 + "cmです。");
+	public static void myProfile(String str, int i, double d ) {
+		System.out.println("私の名前は" + str + "です。");
+		System.out.println("年齢は" + i + "歳です。");
+		System.out.println("身長は" + d + "cmです。");
 	}
 }
