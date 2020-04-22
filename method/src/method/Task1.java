@@ -4,8 +4,8 @@ public class Task1 {
 
 	public static void main(String[] args) {
 		String name = ("幅下聖也");
-		int old = (23);
-		double height = (172.0);
+		int old = 23;
+		double height = 172.0;
 		myProfile(name, old, height);
 		System.out.println("よろしくお願いします。");
 	}
