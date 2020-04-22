@@ -1,28 +1,27 @@
 package vrietyArray;
 
 import java.util.ArrayList;
-import java unil.HashMap;
 import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
 
 public class Task4 {
 	public static void main(String[] args) {
-		HashMap<String,ArrayList<Integer>>label = new HashMap<>();
+		HashMap<String,ArrayList<Integer>>lavel = new HashMap<>();
 
-		Integer[] numArray = {21, 3, 32, 6, 99, 72, 78, 51, 1, 26, 87, 11, 48, 60, 29, 5, 46, 74, 14, 193, 215, 83};
-		List <Integer>listOdd = new ArrayList<>();
-		List <Integer>listEven = new ArrayList<>();
+		Integer[] numarray = {21, 3, 32, 6, 99, 72, 78, 51, 1, 26, 87, 11, 48, 60, 29, 5, 46, 74, 14, 193, 215, 83};
+		ArrayList <Integer>listodd = new ArrayList<>();
+		ArrayList <Integer>listeven = new ArrayList<>();
 
-		for (int num : numArray) {
+		for (int num : numarray) {
 			if (num % 2 == 0) {
-				listEven.add(num);
+				listeven.add(num);
 			} else {
-				listOdd.add(num);
+				listodd.add(num);
 			}
 		}
 
-		System.out.println("奇数：" + Arrays.toString(listOdd.toArray()) + "\r\n"
-				+ "偶数：" + Arrays.toString(listEven.toArray()));
+		System.out.println("奇数：" + Arrays.toString(listodd.toArray()) + "\r\n"
+				+ "偶数：" + Arrays.toString(listeven.toArray()));
 	}
 
 }
