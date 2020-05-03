@@ -4,23 +4,28 @@ import java.util.Random;
 
 public class Task3 {
 	public static void main(String[] args) {
-		int max = 0;
-		int min = 9;
+		System.out.print("[");
+		Random rnd = new Random();
+		int[] n = new int[6];
+		for(int i = 0; i < n.length; i++) {
+			n[i] = rnd.nextInt(10);
+		}
 
-        for (int i = 0; i < 6; i++) {
-            Random r = new Random();
-            int ran = r.nextInt(10);
-
-            System.out.print(ran);
-
-            max = Math.max(max, ran);
-        }
-        System.out.println();
-        System.out.println("最大値:" + max);
-
-         min = Math.min(min,ran);
-
-         System.out.println("最小値:" + min);
-
-         }
-    }
+		int max = n[0];
+		int min = n[0];
+		for(int i = 0; i < n.length; i++) {
+			if(i < n.length - 1) {
+				System.out.print(n[i] + ",");
+			}else {
+				System.out.println(n[i] + "]");
+			}
+			if(max < n[i]) {
+				max = n[i];
+			}
+			if(min > n[i]) {
+				min = n[i];
+			}
+		}
+		System.out.println("最大値: " + max);
+		System.out.println("最小値: " + min);			 }
+}

@@ -2,25 +2,27 @@ package array;
 
 public class Task2 {
 	public static void main(String[] args) {
-		
-		for (int s = 7; s > ; s++){
-			if(s == 1) {
-				System.out.print(s);
+
+		int[] h = new int[7];
+
+		for(int i = 0; i< h.length; i++) {
+			h[i] = 7 - i;
+		}
+
+		for(int j = 0; j < h.length; j++) {
+			if(j == h.length - 1) {
+				System.out.print(h[j]);
 				System.out.println();
 			}else {
-				System.out.print(s + ",");
+				System.out.print(h[j] + ",");
 			}
 		}
-		vdvd
-		int[] array = new int[8];
-		for(int i = 1; i <= 7; i++) {
-			array[i] = i + 0;
-			if(i<7) {
-				System.out.print(i + ",");
-			}else{
-				System.out.println(i);
+		for(int k = h.length; k > 0; k--) {
+			if(k == 1) {
+				System.out.print(h[k - 1]);
+			}else {
+				System.out.print(h[k - 1] + ",");
 			}
 		}
 	}
 }
-
