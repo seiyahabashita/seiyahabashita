@@ -1,21 +1,19 @@
 package standardClass;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Calendar;
 
 public class Task6 {
 	public static void main(String[] args) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
-		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy年MM月dd日hh時mm分");
+		Calendar cal = Calendar.getInstance();
 
-		try {
-			Date date = sdf.parse("2019年9月09日");
-			Date date2 = sdf2.parse("2019年9月09日12時13分");
-			System.out.println(sdf.format(date));
-			System.out.println(sdf2.format(date2));
-	    }catch(ParseException e) {
-			e.printStackTrace();
-		}
+		System.out.print(cal.get(Calendar.YEAR) + "年");
+		System.out.print(cal.get(Calendar.MONTH) + 1 + "月");
+		System.out.println(cal.get(Calendar.DAY_OF_MONTH) + "日");
+
+		System.out.print(cal.get(Calendar.YEAR) + "年");
+		System.out.print(cal.get(Calendar.MONTH) + 1 + "月");
+		System.out.print(cal.get(Calendar.DAY_OF_MONTH) + "日");
+		System.out.print(cal.get(Calendar.HOUR_OF_DAY) + "時");
+		System.out.println(cal.get(Calendar.MINUTE) + "分");
 	}
 }
