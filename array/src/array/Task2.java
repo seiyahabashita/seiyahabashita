@@ -17,11 +17,11 @@ public class Task2 {
 				System.out.print(h[j] + ",");
 			}
 		}
-		for(int k = h.length; k > 0; k--) {
-			if(k == 1) {
-				System.out.print(h[k - 1]);
+		for(int k = h.length - 1; k > -1; k--) {
+			if(k == 0) {
+				System.out.print(h[k]);
 			}else {
-				System.out.print(h[k - 1] + ",");
+				System.out.print(h[k] + ",");
 			}
 		}
 	}
