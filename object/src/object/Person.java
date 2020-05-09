@@ -1,9 +1,9 @@
 package object;
 
 public class Person {
-	public String name;
+	private String name;
 	//名前
-	public int age;
+	private int age;
 	//年齢
 	public String getName() {
 		return this.name;
@@ -20,13 +20,13 @@ public class Person {
 
 	static int wallet = 0;
 
-	Person(String name, int age){
+	public Person(String name, int age){
 		this.name = name;
 		this.age = age;
 	}
 	//コンストラクタ
-	Person(int price){
-		this.wallet = this.wallet + price;
+	public Person(int price){
+		Person.wallet = Person.wallet + price;
 	}
 	Person(){
 	}
